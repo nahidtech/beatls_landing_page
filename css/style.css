@@ -273,3 +273,117 @@ header {
     cursor: pointer;
     transition: all linear .3s;
 }
+
+/* portfolio part css */
+.small_img {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.portfolio_overly {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+
+.portfolio_overly a {
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small_img:hover .portfolio_overly {
+    transform: scale(1);
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.big_img{
+    position: relative;
+}
+.big_img:hover .portfolio_overly {
+    transform: scale(1);
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+/* team section css */
+.team_img {
+    position: relative;
+    overflow: hidden;
+}
+.team_overly {
+    height: 100%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: translateX(220px);
+}
+
+.team_icon ul{
+    padding: 0;
+    margin-top: 20px;
+}
+
+.team_overly a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+}
+
+.team_overly ul li{
+    padding: 10px 0;
+}
+
+.team_img:hover .team_overly{
+    transform: translateX(2px);
+    transition: all ease .3s;
+    cursor: pointer;
+}
+.team_overly a:hover {
+    background-color: #5bc5f4;
+}
+.team_content h4{
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.team_content h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+}
+.team_item:hover .team_content h4 {
+    color: #5bc5f4;
+}
+.team_item:hover .team_img{
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+    transition: all linear .3s;
+}
