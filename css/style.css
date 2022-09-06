@@ -387,3 +387,137 @@ header {
     cursor: pointer;
     transition: all linear .3s;
 }
+
+/* testimonial part css */
+
+.testimonial_content {
+    text-align: center;
+    padding: 23px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+.testimonial_content h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+.testimonial_content h6{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin-bottom: 26px;
+    margin-top: 15px;
+}
+
+.testimonial_content ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+.testimonial_content ul li{
+   display: inline-flex;
+}
+
+.testimonial_content p{
+    text-align: justify;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.triangel {
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: -18px;
+    left: 46%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+/* footer css part */
+.footer {
+    margin-top: 60px;
+    background-color: #353535;
+    padding: 20px 0;
+}
+
+.footer_conter p{
+    color: #f1f1f1;
+    font-size: 13px;
+
+}
+
+.footer_common_head {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.footer_common_head h4{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.f_icon {
+    height: 35px;
+    width: 35px;
+    background-color: #0872b9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.f_icon a{
+    color: white;
+}
+
+.phone_content p {
+    margin: 0;
+    padding-bottom: 5px;
+    color: #f1f1f1;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_link{
+    padding: 0;
+}
+.footer_link li a{
+    color: #f1f1f1;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_link li a:hover{
+    color: #5bc5f4;
+}
+.footer_link li{
+    padding-bottom: 5px;
+}
+.footer_2{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #555555;
+}
+.footer_2 p{
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+}
+.footer_2 p span{
+    color: #5bc5f4;
+}
+
+.f_gallery_img img:hover{
+   filter: grayscale();
+    cursor: pointer;
+    transform: scale(1.1);
+}
