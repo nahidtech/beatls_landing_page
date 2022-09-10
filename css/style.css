@@ -318,6 +318,18 @@ header {
     cursor: pointer;
 }
 
+.port_heading h4::after{
+    left: 43.5%;
+}
+.port_heading h4::before{
+    left: 48.5%;
+}
+.port_heading h4 span::after{
+    left: 49.5%;
+}
+.port_heading h4 span::before{
+    left: 50.2%;
+}
 /* team section css */
 .team_img {
     position: relative;
@@ -388,6 +400,10 @@ header {
     transition: all linear .3s;
 }
 
+.team_heading h4::after {
+    left: 45.8%;
+}
+
 /* testimonial part css */
 
 .testimonial_content {
@@ -437,7 +453,18 @@ header {
     transform: rotate(45deg);
     z-index: -1;
 }
-
+.test_heading h4::after {
+    left: 45%;
+}
+.test_heading h4::before {
+    left: 50%;
+}
+.test_heading h4 span::after {
+    left: 51%;
+}
+.test_heading h4 span::before {
+    left: 51.8%;
+}
 /* footer css part */
 .footer {
     margin-top: 60px;
